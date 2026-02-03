@@ -2,7 +2,7 @@ import telebot
 from openai import OpenAI
 import os
 
-TOKEN = os.getenv("8386303215:AAE8Sn20q9ZsYoi4D8ghRZnycZQ3csTeIlQ")
+TOKEN = os.getenv("8386303215:AAE6hYWFfvwehYa-YiRkwp8JBiOyGclg6NI")
 OPENAI_KEY = os.getenv("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")
 
 client = OpenAI(api_key=OPENAI_KEY)
