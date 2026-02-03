@@ -1,11 +1,11 @@
 import telebot
 from openai import OpenAI
 import os
-TOKEN = os.getenv("8386303215:AAE6hYWFfvwehYa-YiRkwp8JBiOyGclg6NI")
+TOKEN = os.getenv("8386303215:AAE9Uo1g6YlD4NNrL9vnxfENvXSxqpHl-ts")
 OPENAI_KEY = os.getenv("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")
 
 client = OpenAI(api_key=OPENAI_KEY)
-bot = telebot.TeleBot(TOKEN)
+bot = telebot.TeleBot(8386303215:AAE9Uo1g6YlD4NNrL9vnxfENvXSxqpHl-ts)
 
 def calculate_calories(weight, height, age, activity=1.4):
     bmr = 10*weight + 6.25*height - 5*age + 5
